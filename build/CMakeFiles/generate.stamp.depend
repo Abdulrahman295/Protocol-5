@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+C:/Users/adulr/OneDrive/Desktop/Protocol-5/CMakeLists.txt
+C:/Users/adulr/OneDrive/Desktop/Protocol-5/build/CMakeFiles/3.27.8/CMakeCCompiler.cmake
+C:/Users/adulr/OneDrive/Desktop/Protocol-5/build/CMakeFiles/3.27.8/CMakeRCCompiler.cmake
+C:/Users/adulr/OneDrive/Desktop/Protocol-5/build/CMakeFiles/3.27.8/CMakeSystem.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/CMakeCInformation.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/CMakeRCInformation.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/Compiler/MSVC-C.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/Compiler/MSVC.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/Platform/Windows-MSVC-C.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/Platform/Windows-MSVC.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/Platform/Windows.cmake
+F:/cmake-3.27.8-windows-x86_64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake

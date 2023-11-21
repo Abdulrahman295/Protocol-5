@@ -1,0 +1,10 @@
+^C:\USERS\ADULR\ONEDRIVE\DESKTOP\PROTOCOL-5\BUILD\CMAKEFILES\088E9C0A9638939A11AC756DD1F069D8\GENERATE.STAMP.RULE
+setlocal
+F:\cmake-3.27.8-windows-x86_64\bin\cmake.exe -SC:/Users/adulr/OneDrive/Desktop/Protocol-5 -BC:/Users/adulr/OneDrive/Desktop/Protocol-5/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/adulr/OneDrive/Desktop/Protocol-5/build/untitled29.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

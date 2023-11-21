@@ -1,11 +1,13 @@
 //
 // Created by zyn66 on 11/18/2023.
 //
+
+#ifndef MY_HEADER_FILE_H
+#define MY_HEADER_FILE_H
 #include <stdbool.h>
 #define MAX_PKT 1024 /* determines packet size in bytes */
-typedef enum {False, True} boolean; /* boolean type */
 typedef unsigned int seq_nr; /* sequence or ack numbers */
-typedef struct {char data[MAX_PKT]; } packet; /* packet definition */
+typedef struct  {char data[MAX_PKT]; } packet; /* packet definition */
 typedef enum {data, ack, nak} frame_kind; /* frame kind definition */
 typedef struct { /* frames are transported in this layer */
     frame_kind kind; /* what kind of frame is it? */
@@ -13,7 +15,7 @@ typedef struct { /* frames are transported in this layer */
     seq_nr ack; /* acknowledgement number */
     packet info; /* the network layer packet */
 } frame;
-boolean timer;
+bool timer;
 typedef enum {frame_arrival , cksum_err , time_out , network_layer_ready , ready} event_type;
 typedef enum {arrive ,Frame_missed,Cksum_err} frame_arrives;
 /* Macro inc is expanded in-line: increment k circularly. */
@@ -44,3 +46,5 @@ void disable_network_layer(void);
 void is_received(bool status);
 
 void displayEvent(event_type event);
+
+#endif
