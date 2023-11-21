@@ -52,7 +52,7 @@ int main() {
     packet SenderPackets[10],receivedPackets[10];
     frame SenderFrames[10],receivedFrames[10];
     int packets_length = Serialize_to_packet(Data,SenderPackets);
-    int frames_length = Serialize_to_frame(SenderPackets, SenderFrames, packets_length);
+    // int frames_length = Serialize_to_frame(SenderPackets, SenderFrames, packets_length);
     display_packets(SenderPackets, packets_length);
     // display_frames(SenderFrames, frames_length);
     // printf("after000\n");
